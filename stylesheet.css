@@ -1,0 +1,90 @@
+body,
+.jumbotron,
+.navbar {    
+    height: auto;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    color: white;
+    background-color: hsl(218, 28%, 13%)
+}
+
+.btn {
+	background-color: skyblue;
+	border-radius: 50px;
+	width: 250px;
+}
+
+.block {
+	text-align: left;
+	padding: 25px;
+	margin: 0 50px;
+}
+
+.largeImg {
+	margin: 50px
+}
+
+.icon, img {
+	padding: 25px 0 5px;
+}
+
+h1, h2, h3 {
+	margin-top: 25px;
+	font-weight: bold;	
+}
+
+.testimonials {
+	background-image: url("images/bg-quotes.png");
+	background-position: top;
+	padding: 40px;	
+}
+
+.square {
+	border: 5px solid hsl(218, 28%, 13%);
+	border-radius: 15px;
+	background: hsl(219, 30%, 18%);
+	padding: 20px;
+}
+
+#quote {
+	quotes: "'" "'";
+}
+
+.profile {
+	width: 20%;
+	border-radius: 50%
+}
+
+.access {
+	background: hsl(217, 28%, 15%);
+	padding: 50px;
+	border-radius: 5px;
+	-webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+	width: 70%;
+	text-align: center;
+	margin: 0 auto;
+	top: +100px;	
+	position: relative;	
+}
+
+.form-control {
+	display: block;
+	height: 45px;
+	width: 80px;
+	border-radius: 25px;
+	margin-right: 20px;
+}
+button {
+	display: block;
+	margin-top: 15px
+}
+
+footer {
+	padding-top: 50px;
+	margin-top: 50px;
+	height: 400px;
+	background: hsl(216, 53%, 9%)
+}
+
