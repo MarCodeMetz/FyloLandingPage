@@ -5,7 +5,7 @@ body,
     font-family: 'Raleway', sans-serif;
     text-align: center;
     color: white;
-    background-color: hsl(218, 28%, 13%)
+    background-color: hsl(218, 28%, 13%);    
 }
 
 .btn {
@@ -25,7 +25,7 @@ body,
 }
 
 .icon, img {
-	padding: 25px 0 5px;
+	padding: 25px 0 25px;
 }
 
 h1, h2, h3 {
@@ -33,10 +33,20 @@ h1, h2, h3 {
 	font-weight: bold;	
 }
 
-.testimonials {
-	background-image: url("images/bg-quotes.png");
-	background-position: top;
-	padding: 40px;	
+.testimonials, section {
+	margin: 50px;		
+}
+
+#quote {
+	quotes: """ """;
+}
+
+.quotation-mark {
+	margin: 0 auto;
+	top: +5px;
+	left: +5px;
+	position: relative;	
+	float: left;
 }
 
 .square {
@@ -44,10 +54,6 @@ h1, h2, h3 {
 	border-radius: 15px;
 	background: hsl(219, 30%, 18%);
 	padding: 20px;
-}
-
-#quote {
-	quotes: "'" "'";
 }
 
 .profile {
@@ -76,14 +82,16 @@ h1, h2, h3 {
 	border-radius: 25px;
 	margin-right: 20px;
 }
-button {
+.submit {
 	display: block;
 	margin-top: 15px
 }
 
 footer {
-	padding-top: 50px;
-	margin-top: 50px;
+	display: block;
+	text-align: left;
+	padding: 150px 50px 0 50px;
+	margin: 0 auto;
 	height: 400px;
 	background: hsl(216, 53%, 9%)
 }

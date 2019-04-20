@@ -11,25 +11,35 @@
 </head>
 
 <body>
-<nav class="navbar">
-  <a class="navbar-brand" href="#">
-    <img src="images/logo.svg">
-  </a>
-  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-    <div class="navbar-nav">
-      <a class="nav-item nav-link" href="#">Features</a>
-      <a class="nav-item nav-link" href="#">Team</a>
-      <a class="nav-item nav-link" href="#">Sign In</a>
+<nav class="navbar navbar-fixed-top navbar-inverse">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#myNavbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>  
+          <span class="icon-bar"></span>  
+      </button>          
+      <a class="navbar-brand" href="#"><img src="images/logo.svg"></a>
     </div>
-  </div>
+
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <div class="w3-ul w3-center nav nav-navbar navbar-right">
+        <ul class="list-inline pull-right">  
+          <li><a class="nav-item nav-link" href="#">Features</a></li>
+          <li><a class="nav-item nav-link" href="#">Team</a></li>
+          <li><a class="nav-item nav-link" href="#">Sign In</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>  
 </nav>
 
 <div class="jumbotron">
   <img class="largeImg" src="images/illustration-intro.png" max-width="80%">
   <h1>All your files in one secure location, accessible anywhere.</h1>
   <hr>
-  <p>Fylo stores all your most important files in one secure location. Access them wherever 
-  you need, share and collaborate with friends family, and co-workers.</p>
+  <p>Fylo stores all your most important files in one secure location. Access them wherever you need, share and collaborate with friends family, and co-workers.</p>
 
   <button type="button" class="btn btn-primary btn-lg">Get Started</button>
 </div>
@@ -39,28 +49,24 @@
   <div class="col-md-6">
     <img class="icon" src="images/icon-access-anywhere.svg">
     <h3>Access your files, anywhere</h3>
-    <p>The ability to use a smartphone, tablet, or computer to access your account means your 
-  files follow you everywhere.</p>
+    <p>The ability to use a smartphone, tablet, or computer to access your account means your files follow you everywhere.</p>
   </div>
   <div class="col-md-6">
     <img class="icon" src="images/icon-security.svg">
     <h3>Security you can trust</h3>
-    <p>2-factor authentication and user-controlled encryption are just a couple of the security 
-  features we allow to help secure your files.</p>
+    <p>2-factor authentication and user-controlled encryption are just a couple of the security features we allow to help secure your files.</p>
   </div>
 </div>
 <div class="row">
   <div class="col-md-6">
     <img class="icon" src="images/icon-collaboration.svg">
     <h3>Real-time collaboration</h3>
-    <p>Securely share files and folders with friends, family and colleagues for live collaboration. 
-  No email attachments required.</p>
+    <p>Securely share files and folders with friends, family and colleagues for live collaboration. No email attachments required.</p>
   </div>
   <div class="col-md-6">
     <img class="icon" src="images/icon-any-file.svg">
     <h3>Store any type of file</h3>
-    <p>Whether you're sharing holidays photos or work documents, Fylo has you covered allowing for all 
-  file types to be securely stored and shared.</p>
+    <p>Whether you're sharing holidays photos or work documents, Fylo has you covered allowing for all file types to be securely stored and shared.</p>
   </div>
 </div>
 </section>
@@ -74,13 +80,14 @@
       <h3 class="stay">Stay productive, wherever you are</h3>
       <p>Never let location be an issue when accessing your files. Fylo has you covered for all of your file storage needs. Securely share files and folders with friends, family and colleagues for live collaboration. No email attachments required.</p>
 
-      <a class="font-weight-bold">See how Fylo works</a>
+      <a class="font-weight-bold" href="#"><u>See how Fylo works</u></a>
     </div>    
   </div>
 </div>
 <div class="testimonials">
-  <div class="row">
-    <div class="square col-md-4">      
+  <img class="quotation-mark" src="images/bg-quotes.png">  
+  <div class="row">    
+    <div class="square col-md-4">          
       <q id="quote">Fylo has improved our team productivity by an order of magnitude. Since making the switch our team has become a well-oiled collaboration machine.</q><br>
       <img class="profile float-left" src="images/profile-1.jpg">
       <h5>Bruce McKenzie</h5>
@@ -110,7 +117,7 @@
       <div class="form-control">
         <input type="email" id="email" placeholder="Enter email" name="email" size="50%">
       </div><br>    
-      <button type="submit" class="btn btn-primary btn-lg">Submit</button>
+      <button type="submit" class="submit font-weight-bold btn btn-primary btn-lg">Get started for Free!</button>
     </form>    
   </div>  
 </section>
@@ -122,37 +129,41 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
 </body>  
-  <footer>
-    <div>
-    <img class="pull-left" src="images/logo.svg"><br>
-      <table>
-        <tr>
-          <th>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</th>
-          <th>+1-543-123-4567
-          example@fylo.com</th>
-          <th>About Us</th>
-          <th>Contact Us</th>
-        </tr>
-        <tr>
-          <td></td>
-          <td></td>
-          <td>Jobs</td>
-          <td>Terms</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td></td>
-          <td>Press</td>
-          <td>Privacy</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td></td>
-          <td>Blog</td>
-          <td></td>
-        </tr>
-    </table>
-    <p class="attribution">
+  <footer><img class="pull-left" src="images/logo.svg"><br>
+    <div class="row">
+      <div class="footer-text col-md-3">      
+        <p><img class="float-left" src="images/icon-location.svg">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</p>
+      </div>
+      <div class="footer-contact col-md-3">
+        <ul>      
+          <li>+1-543-123-4567</li>
+          <li>example@fylo.com</li>
+         </ul> 
+      </div>
+      <div class="footer-about col-md-2">
+        <ul>      
+          <li>About Us</li>
+          <li>Jobs</li>
+          <li>Press</li>
+          <li>Blog</li>
+        </ul>
+      </div>
+      <div class="footer-contact col-md-2">
+        <ul>      
+          <li>Contact Us</li>
+          <li>Terms</li>
+          <li>Privacy</li>
+        </ul>  
+      </div>
+      <div class="footer-social col-md-2 list-inline">
+        <ul class="pull-right">     
+          <li>Icon1</li>
+          <li>Icon2</li>
+          <li>Icon3</li>
+        </ul>
+      </div>
+    </div>  
+    <p class="attribution text-center">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
       Coded by <a href="https://marcodemetz.github.io/">Marco Metz</a>.
     </p>
