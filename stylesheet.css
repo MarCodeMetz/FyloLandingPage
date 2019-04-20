@@ -1,6 +1,5 @@
 body,
-.jumbotron,
-.navbar {    
+.jumbotron {    
     height: auto;
     font-family: 'Raleway', sans-serif;
     text-align: center;
@@ -25,7 +24,7 @@ body,
 }
 
 .icon, img {
-	padding: 25px 0 25px;
+	padding: 25px 0 25px;	
 }
 
 h1, h2, h3 {
