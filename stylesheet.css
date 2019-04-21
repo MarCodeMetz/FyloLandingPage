@@ -32,7 +32,7 @@ h1, h2, h3 {
 	font-weight: bold;	
 }
 
-.testimonials, section {
+.testimonials, section {	
 	margin: 50px;		
 }
 
@@ -86,12 +86,22 @@ h1, h2, h3 {
 	margin-top: 15px
 }
 
-footer {
-	display: block;
-	text-align: left;
-	padding: 150px 50px 0 50px;
+.location {	
+	text-align: justify;	
+	float: left;
+	overflow: left;
+}
+
+.footer-text {
+	text-align: justify-all;
+}
+
+footer {	
+	text-align: justify;
+	bottom: 0;
+	padding: 80px;
 	margin: 0 auto;
-	height: 400px;
+	height: auto;
 	background: hsl(216, 53%, 9%)
 }
 
