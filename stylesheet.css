@@ -7,6 +7,14 @@ body,
     background-color: hsl(218, 28%, 13%);    
 }
 
+a {
+	color: white;
+}
+
+.navbar-toggler {
+	background-color: white;
+}
+ 
 .btn {
 	background-color: skyblue;
 	border-radius: 50px;
@@ -20,7 +28,7 @@ body,
 }
 
 .largeImg {
-	margin: 50px
+	margin: 50px;
 }
 
 .icon, img {
@@ -55,9 +63,14 @@ h1, h2, h3 {
 	padding: 20px;
 }
 
-.profile {
-	width: 20%;
+.profile-pic {
+	width: auto;
 	border-radius: 50%
+}
+
+.profile {
+	margin-top: 25px;
+	display: inline-block;
 }
 
 .access {
@@ -81,9 +94,11 @@ h1, h2, h3 {
 	border-radius: 25px;
 	margin-right: 20px;
 }
+
+
 .submit {
 	display: block;
-	margin-top: 15px
+	margin-top: 15px;
 }
 
 .location {	
@@ -99,9 +114,12 @@ h1, h2, h3 {
 footer {	
 	text-align: justify;
 	bottom: 0;
-	padding: 80px;
+	padding: 100px;
 	margin: 0 auto;
 	height: auto;
-	background: hsl(216, 53%, 9%)
+	background: hsl(216, 53%, 9%);
 }
 
+.attribution {
+	padding-top: 80px;	
+}
